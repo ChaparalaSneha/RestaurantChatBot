@@ -1,0 +1,11 @@
+intents:
+  - greet
+
+responses:
+  utter_greet:
+  - text: "Hi!! Agent Zom Reporting, Where do you want your meal to be delivered"
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
